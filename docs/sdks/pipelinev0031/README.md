@@ -16,45 +16,45 @@ package main
 import(
 	"context"
 	"log"
-	"github.com/speakeasy-sdks/us-test-nolan"
+	ustestnolan "github.com/speakeasy-sdks/us-test-nolan"
 	"github.com/speakeasy-sdks/us-test-nolan/pkg/models/operations"
 	"github.com/speakeasy-sdks/us-test-nolan/pkg/models/shared"
 )
 
 func main() {
-    s := ustest.New()
+    s := ustestnolan.New()
 
     ctx := context.Background()
     res, err := s.PipelineV0031.Build(ctx, operations.Pipeline1GeneralV0031GeneralPostRequest{
         PipelineBodyV0031: &shared.PipelineBodyV0031{
             Coordinates: []string{
-                "voluptatum",
+                "ipsam",
             },
             Encoding: []string{
-                "iusto",
+                "repellendus",
             },
             Files: [][]byte{
-                []byte("excepturi"),
+                []byte("sapiente"),
             },
-            GzUncompressedContentType: ustest.String("nisi"),
+            GzUncompressedContentType: ustestnolan.String("quo"),
             HiResModelName: []string{
-                "recusandae",
+                "odit",
             },
             OcrLanguages: []string{
-                "temporibus",
+                "at",
             },
-            OutputFormat: ustest.String("ab"),
+            OutputFormat: ustestnolan.String("at"),
             PdfInferTableStructure: []string{
-                "quis",
+                "maiores",
             },
             Strategy: []string{
-                "veritatis",
+                "molestiae",
             },
             XMLKeepTags: []string{
-                "deserunt",
+                "quod",
             },
         },
-        UnstructuredAPIKey: ustest.String("perferendis"),
+        UnstructuredAPIKey: ustestnolan.String("quod"),
     })
     if err != nil {
         log.Fatal(err)

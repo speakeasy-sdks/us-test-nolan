@@ -16,45 +16,45 @@ package main
 import(
 	"context"
 	"log"
-	"github.com/speakeasy-sdks/us-test-nolan"
+	ustestnolan "github.com/speakeasy-sdks/us-test-nolan"
 	"github.com/speakeasy-sdks/us-test-nolan/pkg/models/operations"
 	"github.com/speakeasy-sdks/us-test-nolan/pkg/models/shared"
 )
 
 func main() {
-    s := ustest.New()
+    s := ustestnolan.New()
 
     ctx := context.Background()
     res, err := s.PipelineV0.Build(ctx, operations.Pipeline1GeneralV0GeneralPostRequest{
         PipelineBodyV0: &shared.PipelineBodyV0{
             Coordinates: []string{
-                "suscipit",
+                "voluptatum",
             },
             Encoding: []string{
-                "iure",
+                "iusto",
             },
             Files: [][]byte{
-                []byte("magnam"),
+                []byte("excepturi"),
             },
-            GzUncompressedContentType: ustest.String("debitis"),
+            GzUncompressedContentType: ustestnolan.String("nisi"),
             HiResModelName: []string{
-                "ipsa",
+                "recusandae",
             },
             OcrLanguages: []string{
-                "delectus",
+                "temporibus",
             },
-            OutputFormat: ustest.String("tempora"),
+            OutputFormat: ustestnolan.String("ab"),
             PdfInferTableStructure: []string{
-                "suscipit",
+                "quis",
             },
             Strategy: []string{
-                "molestiae",
+                "veritatis",
             },
             XMLKeepTags: []string{
-                "minus",
+                "deserunt",
             },
         },
-        UnstructuredAPIKey: ustest.String("placeat"),
+        UnstructuredAPIKey: ustestnolan.String("perferendis"),
     })
     if err != nil {
         log.Fatal(err)

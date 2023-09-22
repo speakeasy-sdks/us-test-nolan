@@ -10,53 +10,51 @@ go get github.com/speakeasy-sdks/us-test-nolan
 
 ## SDK Example Usage
 <!-- Start SDK Example Usage -->
-
-
 ```go
 package main
 
 import(
 	"context"
 	"log"
-	"github.com/speakeasy-sdks/us-test-nolan"
+	ustestnolan "github.com/speakeasy-sdks/us-test-nolan"
 	"github.com/speakeasy-sdks/us-test-nolan/pkg/models/operations"
 	"github.com/speakeasy-sdks/us-test-nolan/pkg/models/shared"
 )
 
 func main() {
-    s := ustest.New()
+    s := ustestnolan.New()
 
     ctx := context.Background()
     res, err := s.PipelineV0.Build(ctx, operations.Pipeline1GeneralV0GeneralPostRequest{
         PipelineBodyV0: &shared.PipelineBodyV0{
             Coordinates: []string{
-                "corrupti",
+                "suscipit",
             },
             Encoding: []string{
-                "provident",
+                "iure",
             },
             Files: [][]byte{
-                []byte("distinctio"),
+                []byte("magnam"),
             },
-            GzUncompressedContentType: ustest.String("quibusdam"),
+            GzUncompressedContentType: ustestnolan.String("debitis"),
             HiResModelName: []string{
-                "unde",
+                "ipsa",
             },
             OcrLanguages: []string{
-                "nulla",
+                "delectus",
             },
-            OutputFormat: ustest.String("corrupti"),
+            OutputFormat: ustestnolan.String("tempora"),
             PdfInferTableStructure: []string{
-                "illum",
+                "suscipit",
             },
             Strategy: []string{
-                "vel",
+                "molestiae",
             },
             XMLKeepTags: []string{
-                "error",
+                "minus",
             },
         },
-        UnstructuredAPIKey: ustest.String("deserunt"),
+        UnstructuredAPIKey: ustestnolan.String("placeat"),
     })
     if err != nil {
         log.Fatal(err)
@@ -81,6 +79,38 @@ func main() {
 
 * [Build](docs/sdks/pipelinev0031/README.md#build) - Pipeline 1
 <!-- End SDK Available Operations -->
+
+
+
+<!-- Start Dev Containers -->
+
+
+
+<!-- End Dev Containers -->
+
+
+
+<!-- Start Pagination -->
+# Pagination
+
+Some of the endpoints in this SDK support pagination. To use pagination, you make your SDK calls as usual, but the
+returned response object will have a `Next` method that can be called to pull down the next group of results. If the
+return value of `Next` is `nil`, then there are no more pages to be fetched.
+
+Here's an example of one such pagination call:
+
+
+<!-- End Pagination -->
+
+
+
+<!-- Start Go Types -->
+
+<!-- End Go Types -->
+
+<!-- Placeholder for Future Speakeasy SDK Sections -->
+
+
 
 ### Maturity
 
