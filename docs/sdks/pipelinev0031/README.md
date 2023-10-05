@@ -1,4 +1,5 @@
 # PipelineV0031
+(*PipelineV0031*)
 
 ### Available Operations
 
@@ -28,33 +29,33 @@ func main() {
     res, err := s.PipelineV0031.Build(ctx, operations.Pipeline1GeneralV0031GeneralPostRequest{
         PipelineBodyV0031: &shared.PipelineBodyV0031{
             Coordinates: []string{
-                "ipsam",
+                "Practical",
             },
             Encoding: []string{
-                "repellendus",
+                "Gasoline",
             },
             Files: [][]byte{
-                []byte("sapiente"),
+                []byte("[eAhpDJhn'"),
             },
-            GzUncompressedContentType: ustestnolan.String("quo"),
+            GzUncompressedContentType: ustestnolan.String("Shoes"),
             HiResModelName: []string{
-                "odit",
+                "what",
             },
             OcrLanguages: []string{
-                "at",
+                "whether",
             },
-            OutputFormat: ustestnolan.String("at"),
+            OutputFormat: ustestnolan.String("Direct"),
             PdfInferTableStructure: []string{
-                "maiores",
+                "gee",
             },
             Strategy: []string{
-                "molestiae",
+                "Metal",
             },
             XMLKeepTags: []string{
-                "quod",
+                "Avon",
             },
         },
-        UnstructuredAPIKey: ustestnolan.String("quod"),
+        UnstructuredAPIKey: ustestnolan.String("Intranet synthesizing HTTP"),
     })
     if err != nil {
         log.Fatal(err)
