@@ -6,9 +6,9 @@ package main
 
 import (
 	"context"
-	ustestnolan "github.com/speakeasy-sdks/us-test-nolan"
-	"github.com/speakeasy-sdks/us-test-nolan/pkg/models/operations"
-	"github.com/speakeasy-sdks/us-test-nolan/pkg/models/shared"
+	ustestnolan "github.com/speakeasy-sdks/us-test-nolan/v2"
+	"github.com/speakeasy-sdks/us-test-nolan/v2/pkg/models/operations"
+	"github.com/speakeasy-sdks/us-test-nolan/v2/pkg/models/shared"
 	"log"
 )
 
@@ -16,18 +16,18 @@ func main() {
 	s := ustestnolan.New()
 
 	ctx := context.Background()
-	res, err := s.PipelineV0.Build(ctx, operations.Pipeline1GeneralV0GeneralPostRequest{
-		PipelineBodyV0: &shared.PipelineBodyV0{
+	res, err := s.PipelineV0031.Build(ctx, operations.Pipeline1GeneralV0031GeneralPostRequest{
+		PipelineBodyV0031: &shared.PipelineBodyV0031{
 			Coordinates: []string{
 				"string",
 			},
 			Encoding: []string{
 				"string",
 			},
-			Files: []shared.PipelineBodyV0Files{
-				shared.PipelineBodyV0Files{
-					Content: []byte("9G&x$kc[eA"),
-					Files:   "string",
+			Files: []shared.PipelineBodyV0031Files{
+				shared.PipelineBodyV0031Files{
+					Content:  []byte("0x591E0BfdA7"),
+					FileName: "cab_touring_henry.mpg4",
 				},
 			},
 			HiResModelName: []string{
