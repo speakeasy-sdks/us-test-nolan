@@ -117,3 +117,13 @@ Based on:
 - [go v2.0.2] .
 ### Releases
 - [Go v2.0.2] https://github.com/speakeasy-sdks/us-test-nolan/releases/tag/v2.0.2 - .
+
+## 2023-11-18 01:03:39
+### Changes
+Based on:
+- OpenAPI Doc 1.0.0 
+- Speakeasy CLI 1.121.1 (2.194.1) https://github.com/speakeasy-api/speakeasy
+### Generated
+- [go v2.0.3] .
+### Releases
+- [Go v2.0.3] https://github.com/speakeasy-sdks/us-test-nolan/releases/tag/v2.0.3 - .
