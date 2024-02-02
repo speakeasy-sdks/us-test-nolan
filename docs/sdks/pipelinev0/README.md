@@ -15,10 +15,10 @@ Pipeline 1
 package main
 
 import(
-	ustestnolan "github.com/speakeasy-sdks/us-test-nolan/v2"
+	ustestnolan "github.com/speakeasy-sdks/us-test-nolan/v3"
 	"context"
-	"github.com/speakeasy-sdks/us-test-nolan/v2/pkg/models/shared"
-	"github.com/speakeasy-sdks/us-test-nolan/v2/pkg/models/operations"
+	"github.com/speakeasy-sdks/us-test-nolan/v3/pkg/models/shared"
+	"github.com/speakeasy-sdks/us-test-nolan/v3/pkg/models/operations"
 	"log"
 	"net/http"
 )

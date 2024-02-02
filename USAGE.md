@@ -4,9 +4,9 @@ package main
 
 import (
 	"context"
-	ustestnolan "github.com/speakeasy-sdks/us-test-nolan/v2"
-	"github.com/speakeasy-sdks/us-test-nolan/v2/pkg/models/operations"
-	"github.com/speakeasy-sdks/us-test-nolan/v2/pkg/models/shared"
+	ustestnolan "github.com/speakeasy-sdks/us-test-nolan/v3"
+	"github.com/speakeasy-sdks/us-test-nolan/v3/pkg/models/operations"
+	"github.com/speakeasy-sdks/us-test-nolan/v3/pkg/models/shared"
 	"log"
 	"net/http"
 )

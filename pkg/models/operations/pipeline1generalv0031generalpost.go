@@ -3,7 +3,7 @@
 package operations
 
 import (
-	"github.com/speakeasy-sdks/us-test-nolan/v2/pkg/models/shared"
+	"github.com/speakeasy-sdks/us-test-nolan/v3/pkg/models/shared"
 	"net/http"
 )
 

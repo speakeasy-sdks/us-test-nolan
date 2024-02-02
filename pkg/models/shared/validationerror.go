@@ -4,7 +4,7 @@ package shared
 
 import (
 	"errors"
-	"github.com/speakeasy-sdks/us-test-nolan/v2/pkg/utils"
+	"github.com/speakeasy-sdks/us-test-nolan/v3/pkg/utils"
 )
 
 type LocType string

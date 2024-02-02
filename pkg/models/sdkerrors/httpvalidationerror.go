@@ -4,7 +4,7 @@ package sdkerrors
 
 import (
 	"encoding/json"
-	"github.com/speakeasy-sdks/us-test-nolan/v2/pkg/models/shared"
+	"github.com/speakeasy-sdks/us-test-nolan/v3/pkg/models/shared"
 )
 
 // HTTPValidationError - Validation Error

@@ -1,4 +1,4 @@
-module github.com/speakeasy-sdks/us-test-nolan/v2
+module github.com/speakeasy-sdks/us-test-nolan/v3
 
 go 1.20
 

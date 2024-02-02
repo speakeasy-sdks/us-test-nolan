@@ -18,9 +18,9 @@ package main
 
 import (
 	"context"
-	ustestnolan "github.com/speakeasy-sdks/us-test-nolan/v2"
-	"github.com/speakeasy-sdks/us-test-nolan/v2/pkg/models/operations"
-	"github.com/speakeasy-sdks/us-test-nolan/v2/pkg/models/shared"
+	ustestnolan "github.com/speakeasy-sdks/us-test-nolan/v3"
+	"github.com/speakeasy-sdks/us-test-nolan/v3/pkg/models/operations"
+	"github.com/speakeasy-sdks/us-test-nolan/v3/pkg/models/shared"
 	"log"
 	"net/http"
 )
@@ -116,10 +116,10 @@ package main
 import (
 	"context"
 	"errors"
-	ustestnolan "github.com/speakeasy-sdks/us-test-nolan/v2"
-	"github.com/speakeasy-sdks/us-test-nolan/v2/pkg/models/operations"
-	"github.com/speakeasy-sdks/us-test-nolan/v2/pkg/models/sdkerrors"
-	"github.com/speakeasy-sdks/us-test-nolan/v2/pkg/models/shared"
+	ustestnolan "github.com/speakeasy-sdks/us-test-nolan/v3"
+	"github.com/speakeasy-sdks/us-test-nolan/v3/pkg/models/operations"
+	"github.com/speakeasy-sdks/us-test-nolan/v3/pkg/models/sdkerrors"
+	"github.com/speakeasy-sdks/us-test-nolan/v3/pkg/models/shared"
 	"log"
 )
 
@@ -197,9 +197,9 @@ package main
 
 import (
 	"context"
-	ustestnolan "github.com/speakeasy-sdks/us-test-nolan/v2"
-	"github.com/speakeasy-sdks/us-test-nolan/v2/pkg/models/operations"
-	"github.com/speakeasy-sdks/us-test-nolan/v2/pkg/models/shared"
+	ustestnolan "github.com/speakeasy-sdks/us-test-nolan/v3"
+	"github.com/speakeasy-sdks/us-test-nolan/v3/pkg/models/operations"
+	"github.com/speakeasy-sdks/us-test-nolan/v3/pkg/models/shared"
 	"log"
 	"net/http"
 )
@@ -261,9 +261,9 @@ package main
 
 import (
 	"context"
-	ustestnolan "github.com/speakeasy-sdks/us-test-nolan/v2"
-	"github.com/speakeasy-sdks/us-test-nolan/v2/pkg/models/operations"
-	"github.com/speakeasy-sdks/us-test-nolan/v2/pkg/models/shared"
+	ustestnolan "github.com/speakeasy-sdks/us-test-nolan/v3"
+	"github.com/speakeasy-sdks/us-test-nolan/v3/pkg/models/operations"
+	"github.com/speakeasy-sdks/us-test-nolan/v3/pkg/models/shared"
 	"log"
 	"net/http"
 )
