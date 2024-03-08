@@ -7,7 +7,6 @@ import (
 	ustestnolan "github.com/speakeasy-sdks/us-test-nolan/v3"
 	"github.com/speakeasy-sdks/us-test-nolan/v3/pkg/models/operations"
 	"log"
-	"net/http"
 )
 
 func main() {
@@ -18,8 +17,7 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
-
-	if res.StatusCode == http.StatusOK {
+	if res != nil {
 		// handle response
 	}
 }
