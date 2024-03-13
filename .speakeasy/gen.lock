@@ -3,10 +3,10 @@ id: 6d7af084-3c1c-41a0-8d97-3708fff92690
 management:
   docChecksum: 3afc36b6479b9533f60bf66bba8956bb
   docVersion: 1.0.0
-  speakeasyVersion: 1.204.1
-  generationVersion: 2.279.1
-  releaseVersion: 3.2.0
-  configChecksum: 213f5eca87f1cbaf0650665950335ab2
+  speakeasyVersion: 1.207.1
+  generationVersion: 2.280.6
+  releaseVersion: 3.2.1
+  configChecksum: 1870b3b53571256f66e3e619739491ee
   repoURL: https://github.com/speakeasy-sdks/us-test-nolan.git
   repoSubDirectory: .
   installationURL: https://github.com/speakeasy-sdks/us-test-nolan
@@ -14,7 +14,7 @@ management:
 features:
   go:
     core: 3.4.4
-    globalServerURLs: 2.82.1
+    globalServerURLs: 2.82.2
     nameOverrides: 2.81.1
     responseFormat: 0.1.0
     unions: 2.85.4
